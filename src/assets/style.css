@@ -1,0 +1,22 @@
+/* MOdule Spacer */
+.module-spacer {
+  height: 32px;
+}
+
+/* /signup, /signin */
+.user-auth {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 1rem;
+  height: auto;
+  width: calc(100% - 2rem);
+}
+
+.user-auth__heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.user-auth__send-button {
+  text-align: center;
+}
