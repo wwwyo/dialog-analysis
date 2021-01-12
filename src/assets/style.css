@@ -2,6 +2,19 @@
 .module-spacer {
   height: 32px;
 }
+/* header */
+main {
+  padding: 96px;
+}
+
+.header__logo {
+  height: 5rem;
+  width: 8rem;
+}
+
+.header__menus {
+  margin: 0 0 0 auto;
+}
 
 /* /signup, /signin */
 .user-auth {
