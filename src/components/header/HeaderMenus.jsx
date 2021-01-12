@@ -22,7 +22,7 @@ const HeaderMenus = (props) => {
       <IconButton>
         <ChatIcon fontSize="inherit" className={classes.icon} />
       </IconButton>
-      <IconButton>
+      <IconButton onClick={(e) => props.handleDrawerToggle(e)}>
         <MenuIcon fontSize="inherit" className={classes.icon}/>
       </IconButton>
     </>
