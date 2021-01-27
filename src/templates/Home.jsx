@@ -7,16 +7,16 @@ const Home = () => {
   const dispatch = useDispatch();
   const selector = useSelector(state => state)
   const uid = getUserId(selector);
-  const nickname = getUserNickname(selector);
+
   return (
-    <div>
-      <div>home</div>
-      <p>ユーザーId:{uid}</p>
-      <p>ユーザー名：{nickname}</p>
-      <button onClick={() => dispatch(signOut())}>
-        signout
-      </button>
-    </div>
+    <>
+      <section>
+        <h1 className="section__top">
+          大学生
+        </h1>
+        
+      </section>
+    </>
   )
 }
 
