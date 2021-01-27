@@ -1,6 +1,25 @@
-/* MOdule Spacer */
+/* Module Spacer */
 .module-spacer {
   height: 32px;
+}
+/* header */
+main {
+  padding: 96px;
+}
+
+.header__logo {
+  height: 5rem;
+  width: 8rem;
+}
+
+.header__menus {
+  margin: 0 0 0 auto;
+}
+
+.header__search-field {
+  align-items: center;
+  display: flex;
+  margin-left: 32%;
 }
 
 /* /signup, /signin */
@@ -19,4 +38,10 @@
 
 .user-auth__send-button {
   text-align: center;
+}
+
+/* Home */
+.section__top {
+  font-size: 2rem;
+  color: #000;
 }
